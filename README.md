@@ -1,4 +1,4 @@
-# 💭daydream💭(백일몽) project  
+# 💭daydream💭(백일몽) project
 ---
   
 ### 프로젝트 소개
@@ -37,7 +37,7 @@
 ---
 ## 정보
 
-👉홍정완👈 
+👉홍정완👈
 
-[cs 블로그](https://velog.io/@daydream) 
+[cs 블로그](https://velog.io/@daydream)
 hjw43ok@hs.ac.kr
