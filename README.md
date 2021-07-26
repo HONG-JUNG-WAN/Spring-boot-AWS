@@ -1,7 +1,7 @@
 # 💭daydream💭(백일몽) project
 
   
-### 프로젝트 소개
+## 프로젝트 소개
 
   
 백일몽이란 한낮에 꾸는 꿈, 헛된 공상을 말합니다.  
@@ -15,22 +15,22 @@
 🔖 진행 상황에 따라 구체적인 부연 설명이 추가됩니다. 
 
 
-#### 프로젝트 기간
+## 프로젝트 기간
 * 2021.07.26 ~ ∞ 🚩
 
 
-### 개발 환경
+## 개발 환경
 
 * Java 8
 * Gradle 4.x
 * Spring Boot 2.1.x
 
 
-### UML or Directory structure
+## UML or Directory structure
 
 
 
-### 업데이트 내역
+## 업데이트 내역
 
 * 0.0.1
     * 작업 진행 중
@@ -40,5 +40,5 @@
 
 👉홍정완👈
 
-[cs 블로그](https://velog.io/@daydream)
+[cs 블로그](https://velog.io/@daydream) - 
 hjw43ok@hs.ac.kr
