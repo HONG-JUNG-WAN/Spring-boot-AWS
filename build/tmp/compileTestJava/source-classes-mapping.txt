@@ -1,2 +1,0 @@
-com/jojolud/book/springboot/HelloControllerTest.java
- com.jojolud.book.springboot.HelloControllerTest
