@@ -1,9 +1,13 @@
 {{>layout/header}}
 
-    <h1>한땀</h1>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js" ></script>
+<script type="text/javascript" src="https://cdn.iamport.kr/js/iamport.payment-1.1.5.js"></script>
+
+    <h1 align="center">Contact</h1>
         <div class="col-md-12">
             <!-- 로그인 기능 영역 -->
             <div class="row">
+
                 <div class="col-md-6">
                     <a href="/posts/save" role="button" class="btn btn-primary">글 등록</a>
                     {{#userName}}
@@ -11,15 +15,18 @@
                         <a href="/logout" class="btn btn-info active" role="button">Logout</a>
                     {{/userName}}
                     {{^userName}}
-                        <a href="/oauth2/authorization/google" class="btn btn-success active" role="button">
+                        <a href="/oauth2/authorization/google" class="btn btn-success active" role="button";>
                             Google Login
                         </a>
-                        <a href="/oauth2/authorization/naver" class="btn btn-secondary active" role="button">
+                        <a href="/oauth2/authorization/naver" class="btn btn-secondary active" role="button";>
                             Naver Login
                         </a>
                     {{/userName}}
                 </div>
-            </div>
+                <p>
+                <img src="C:\Users\Hong\Desktop\여름방학\HongJungWan-spring-boot-AWS-study\src\main\resources\templates\image\a" width="400" height="400">
+                </p>
+            </p>
         </div>
         <br>
         <!-- 목록 출력 영역 -->
@@ -32,6 +39,7 @@
                 <th>최종수정일</th>
             </tr>
             </thead>
+
             <tbody id="tbody">
                 {{#posts}}
                 <tr>
