@@ -2,12 +2,19 @@
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 <script type="text/javascript" src="https://cdn.iamport.kr/js/iamport.payment-1.1.5.js"></script>
-<br><br>
+
 <div class="box"
-     style="background: #BDBDBD; width:200px; height:200px; border-radius:50%; overflow:hidden; margin:auto;">
-    <br><br><br>
-    <h1 align="center">Contact</h1>
+     style="background: #BDBDBD; width:150px; height:150px; border-radius:60%; overflow:hidden; margin:auto;">
+    <br><br>
+    <h2 align="center">Contact</h2>
 </div>
+
+<br>
+<h3 align="center">
+    <img id="logoImage" src="https://cdn.pixabay.com/photo/2016/02/19/11/19/office-1209640_960_720.jpg" width="550"
+         height="450">
+</h3>
+
 <br>
 <div class="col-md-12">
     <!-- 로그인 기능 영역 -->
@@ -31,8 +38,7 @@
         </div>
     </div>
 </div>
-<br><br><br>
-
+<br><br>
 
 <!-- 목록 출력 영역 -->
 <table class="table table-horizontal table-bordered">
@@ -57,4 +63,31 @@
     </tbody>
 </table>
 <br><br>
+
+<hr>
+
+<div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://contact-8.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
+    Disqus.</a></noscript>
+
+<br><br>
+
 {{>layout/footer}}
