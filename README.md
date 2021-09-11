@@ -2,25 +2,23 @@
 
 🔖 진행 상황에 따라 문서가 업데이트됩니다.
 
-**8.15 문서 업데이트 예정**
+**9.12 문서 업데이트**
 
 <br>
 
 ## 🛒 프로젝트 목표
 
-🔹 프로젝트 진행간 발생되는 **Technical Issue** 해결 극복 <br>
-🔹 Clone Coding에서 벗어나 **본인의 고민**을 Project에 적용 <br>
-🔹 **실험에 중심**을 둔 Project
+🔹 프로젝트 진행간 발생되는 **Issue** Documentation <br>
+🔹 **Server Infrastructure** 중심 Project
 
 <br><br>
 ## 🛒 진행 사항
 
-![330px-Devops-toolchain](https://user-images.githubusercontent.com/76596316/128998296-ab44c0c3-cc4b-418f-b991-f67a0db7df48.jpg)
-
+![](../../../var/run/vmblock-fuse/blockdir/UWA6YH/model.jpg)
 
 <br>
 
-DevOps ToolChain (배포 Test  🚩)
+(배포 🚩)
 
 
 
@@ -32,7 +30,8 @@ DevOps ToolChain (배포 Test  🚩)
 🔹 Gradle 4.10.2 <br>
 🔹 Spring Boot 2.1.9 <br>
 🔹 Linux ubontu 20.04.2 LTS <br>
-🔹 Amazon RDS
+🔹 Amazon RDS <br>
+🔹 EC2
 
 <br><br>
 
@@ -49,13 +48,20 @@ DevOps ToolChain (배포 Test  🚩)
 🔹 Authenticate
 
 <br><br>
-## 🛒 프로젝트를 진행하며 고민한 Issue 해결 과정
+## 🛒 프로젝트를 진행하며 발생한 오류 해결 과정
 
 
 |제목|내용|Link|
 |------|---|---|
-|해결 중 🤯|||
+|Contact Project - Documentation I|DB|https://velog.io/@daydream/Contact-Project-Documentation-I-DB|
+|Contact Project - Documentation II|UI|https://velog.io/@daydream/Contact-Project-Documentation-II-UI|
+|Contact Project - Documentation III|Development Environment|https://velog.io/@daydream/Contact-Project-Documentation-III-Development-Environment|
+|Contact Project - Documentation IV|Development Environment|https://velog.io/@daydream/Contact-Project-Documentation-IV-Development-Environment|
 
+<br><br>
+##참고 문서
+
+작성 준비 중
 
 
 <br><br>
