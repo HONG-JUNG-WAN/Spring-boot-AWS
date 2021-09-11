@@ -1,59 +1,60 @@
 {{>layout/header}}
 
-<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js" ></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 <script type="text/javascript" src="https://cdn.iamport.kr/js/iamport.payment-1.1.5.js"></script>
-
-<div class="box" style="background: #BDBDBD; width:200px; height:200px; border-radius:50%; overflow:hidden; margin:auto;">
+<br><br>
+<div class="box"
+     style="background: #BDBDBD; width:200px; height:200px; border-radius:50%; overflow:hidden; margin:auto;">
     <br><br><br>
     <h1 align="center">Contact</h1>
 </div>
-        <br>
-        <div class="col-md-12">
-            <!-- 로그인 기능 영역 -->
-            <div class="row">
+<br>
+<div class="col-md-12">
+    <!-- 로그인 기능 영역 -->
+    <div class="row">
 
-                <div class="col-md-6">
+        <div class="col-md-6">
 
-                    <a href="/posts/save" role="button" class="btn btn-primary">글 등록</a>
-                    {{#userName}}
-                        Looged in as : <span id="user">{{userName}}</span>
-                        <a href="/logout" class="btn" role="button">Logout</a>
-                    {{/userName}}
-                    {{^userName}}
-                        <a href="/oauth2/authorization/google" class="btn" role="button";>
-                            Google Login
-                        </a>
-                        <a href="/oauth2/authorization/naver" class="btn" role="button";>
-                            Naver Login
-                        </a>
-                    {{/userName}}
-                </div>
-            </div>
+            <a href="/posts/save" role="button" class="btn btn-primary">글 등록</a>
+            {{#userName}}
+                Looged in as : <span id="user">{{userName}}</span>
+                <a href="/logout" class="btn" role="button">Logout</a>
+            {{/userName}}
+            {{^userName}}
+                <a href="/oauth2/authorization/google" class="btn" role="button" ;>
+                    Google Login
+                </a>
+                <a href="/oauth2/authorization/naver" class="btn" role="button" ;>
+                    Naver Login
+                </a>
+            {{/userName}}
         </div>
-        <br>
+    </div>
+</div>
+<br><br><br>
 
 
-        <!-- 목록 출력 영역 -->
-        <table class="table table-horizontal table-bordered">
-            <thead class="thead-strong">
-            <tr>
-                <th>게시글번호</th>
-                <th>제목</th>
-                <th>작성자</th>
-                <th>최종수정일</th>
-            </tr>
-            </thead>
+<!-- 목록 출력 영역 -->
+<table class="table table-horizontal table-bordered">
+    <thead class="thead-strong">
+    <tr>
+        <th>게시글번호</th>
+        <th>제목</th>
+        <th>작성자</th>
+        <th>최종수정일</th>
+    </tr>
+    </thead>
 
-            <tbody id="tbody">
-                {{#posts}}
-                <tr>
-                    <td>{{id}}</td>
-                    <td><a href="/posts/update/{{id}}">{{title}}</a></td>
-                    <td>{{author}}</td>
-                    <td>{{modifiedDate}}</td>
-                </tr>
-                {{/posts}}
-            </tbody>
-        </table>
-
+    <tbody id="tbody">
+    {{#posts}}
+        <tr>
+            <td>{{id}}</td>
+            <td><a href="/posts/update/{{id}}">{{title}}</a></td>
+            <td>{{author}}</td>
+            <td>{{modifiedDate}}</td>
+        </tr>
+    {{/posts}}
+    </tbody>
+</table>
+<br><br>
 {{>layout/footer}}

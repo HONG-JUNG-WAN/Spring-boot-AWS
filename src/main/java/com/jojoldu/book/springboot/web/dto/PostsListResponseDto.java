@@ -13,7 +13,7 @@ public class PostsListResponseDto {
     private String author;
     private LocalDateTime modifiedDate;
 
-    public PostsListResponseDto(Posts Entity){
+    public PostsListResponseDto(Posts Entity) {
         this.id = Entity.getId();
         this.title = Entity.getTitle();
         this.author = Entity.getAuthor();
