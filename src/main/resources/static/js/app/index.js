@@ -12,6 +12,9 @@ var main = {
         $('#btn-delete').on('click', function () {
             _this.delete();
         });
+
+        $('#btn-find').on('click', function () { _this.find(); })
+
     },
     save : function () {
         var data = {
@@ -69,6 +72,7 @@ var main = {
             alert(JSON.stringify(error));
         });
     }
+
 };
 
 main.init();
