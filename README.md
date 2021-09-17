@@ -2,7 +2,7 @@
 
 🔖 진행 상황에 따라 문서가 업데이트됩니다.
 
-**9.12 문서 업데이트**
+**9.18 문서 업데이트**
 
 <br>
 
@@ -16,12 +16,13 @@
 
 ![](../../../var/run/vmblock-fuse/blockdir/UWA6YH/model.jpg)
 
-<br>
+(EC2 server 배포 완료)
 
-(배포 🚩)
+<br><br>
 
+# 🧐 동작 시연
 
-
+준비 중 ..
 
 <br><br>
 ## 🛒 개발 환경 및 사용 기술
@@ -39,11 +40,11 @@
 
 🔹 버전 관리 <br>
 🔹 문서화 <br>
-🔹 TDD <br>
+🔹 TDD (technical debt)<br>
 🔹 단위 테스트 👉 통합 테스트 <br>
 🔹 Spring Data Jpa 👉 RDB 관리 <br>
-🔹 어드민 서비스 <br>
-🔹 통계 서비스 <br>
+🔹 어드민 서비스 (technical debt) <br>
+🔹 통계 서비스 (technical debt) <br>
 🔹 oAuth <br>
 🔹 Authenticate
 
@@ -57,6 +58,11 @@
 |Contact Project - Documentation II|UI|https://velog.io/@daydream/Contact-Project-Documentation-II-UI|
 |Contact Project - Documentation III|Development Environment|https://velog.io/@daydream/Contact-Project-Documentation-III-Development-Environment|
 |Contact Project - Documentation IV|Development Environment|https://velog.io/@daydream/Contact-Project-Documentation-IV-Development-Environment|
+|Contact Project - |||
+|Contact Project - |||
+|Contact Project - |||
+
+
 
 <br><br>
 ##참고 문서
