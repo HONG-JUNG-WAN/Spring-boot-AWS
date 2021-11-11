@@ -9,16 +9,21 @@
 <br><br>
 
 ## 동작 시연
+<br>
 
-![local1](https://user-images.githubusercontent.com/76596316/141294919-05dbea12-bf34-4930-8fb8-57a603711b98.jpg)
+![local2](https://user-images.githubusercontent.com/76596316/141294919-05dbea12-bf34-4930-8fb8-57a603711b98.jpg)
 ![local2](https://user-images.githubusercontent.com/76596316/141294936-7a26dc55-bcb8-4e1c-bd50-6d3e7d9e9d52.jpg)
-local 동작
+### [local 동작]
+
+<br>
 
 ![DNS](https://user-images.githubusercontent.com/76596316/141295024-f56b5cd0-039c-48a5-b1e5-0fe5d56a9a18.jpg)
-퍼블릭 Ipv4 DNS 접근
+### [퍼블릭 Ipv4 DNS 접근]
 
-![모바일](https://user-images.githubusercontent.com/76596316/141295041-a0432484-4ff5-492f-8ed1-40060e9aa578.jpg)
-모바일 
+<br>
+
+<img src="https://user-images.githubusercontent.com/76596316/141295041-a0432484-4ff5-492f-8ed1-40060e9aa578.jpg" width="300" height="700">
+### [모바일] 
 
 
 
