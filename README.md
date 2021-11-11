@@ -1,10 +1,5 @@
-# 👁 Contact
+# 🔖  Contact
 
-🔖 진행 상황에 따라 문서가 업데이트됩니다.
-
-**9.18 문서 업데이트**
-
-<br>
 
 ## 🛒 프로젝트 목표
 
@@ -12,17 +7,20 @@
 🔹 **Server Infrastructure** 중심 Project
 
 <br><br>
-## 🛒 진행 사항
 
-![](../../../var/run/vmblock-fuse/blockdir/UWA6YH/model.jpg)
+## 동작 시연
 
-(EC2 server 배포 완료)
+![local1](https://user-images.githubusercontent.com/76596316/141294919-05dbea12-bf34-4930-8fb8-57a603711b98.jpg)
+![local2](https://user-images.githubusercontent.com/76596316/141294936-7a26dc55-bcb8-4e1c-bd50-6d3e7d9e9d52.jpg)
+local 동작
 
-<br><br>
+![DNS](https://user-images.githubusercontent.com/76596316/141295024-f56b5cd0-039c-48a5-b1e5-0fe5d56a9a18.jpg)
+퍼블릭 Ipv4 DNS 접근
 
-# 🧐 동작 시연
+![모바일](https://user-images.githubusercontent.com/76596316/141295041-a0432484-4ff5-492f-8ed1-40060e9aa578.jpg)
+모바일 
 
-준비 중 ..
+
 
 <br><br>
 ## 🛒 개발 환경 및 사용 기술
@@ -40,7 +38,6 @@
 
 🔹 버전 관리 <br>
 🔹 문서화 <br>
-🔹 TDD (technical debt)<br>
 🔹 단위 테스트 👉 통합 테스트 <br>
 🔹 Spring Data Jpa 👉 RDB 관리 <br>
 🔹 어드민 서비스 (technical debt) <br>
@@ -58,16 +55,10 @@
 |Contact Project - Documentation II|UI|https://velog.io/@daydream/Contact-Project-Documentation-II-UI|
 |Contact Project - Documentation III|Development Environment|https://velog.io/@daydream/Contact-Project-Documentation-III-Development-Environment|
 |Contact Project - Documentation IV|Development Environment|https://velog.io/@daydream/Contact-Project-Documentation-IV-Development-Environment|
-|Contact Project - |||
-|Contact Project - |||
-|Contact Project - |||
+|Contact Project - Documentation V|Development Environment|https://velog.io/@daydream/Contact-Project-Documentation-V-Development-Environment|
 
 
 
-<br><br>
-##참고 문서
-
-작성 준비 중
 
 
 <br><br>
@@ -77,5 +68,3 @@
 
 [cs 블로그](https://velog.io/@daydream) -
 hjw43ok@hs.ac.kr
-
-
